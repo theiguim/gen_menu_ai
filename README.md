@@ -1,5 +1,5 @@
 # AUTOMATE RESTAURANT MENU
-#### Video Demo: <URL AQUI>  
+#### Video Demo: [cs50 - Automate Restaurant Menu](https://youtu.be/edkH0zpyZA0)  
 #### Description: 
 
 This project aims to create a web application that utilizes OCR (Optical Character Recognition) technologies and Artificial Intelligence to extract information from restaurant menus and convert it into a structured JSON format. The goal is to automate the digitization of menus, eliminating the need for manual entry into delivery apps and other services in the sector.
