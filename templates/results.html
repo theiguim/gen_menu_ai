@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/static/style.css">
+  <title>Menu</title>
+</head>
+
+<body>
+
+  <div class="result_template">
+    <div class="nav">
+      <h1>Menu</h1>
+
+      <div>
+        
+      <a href="/">← Uploads</a>
+
+
+      <form action="/delete_all" method="POST">
+        <button type="submit" onclick="return confirm('Are you sure about this decision?')">
+          Delete all
+        </button>
+      </form>
+      
+      </div>
+      
+    </div>
+
+    <div id="result-list"></div>
+
+  </div>
+
+  <script src="/static/script.js">
+
+  </script>
+
+</body>
+
+</html>

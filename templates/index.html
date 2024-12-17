@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/style.css">
+    <title>Upload Menu</title>
+
+</head>
+
+<body>
+
+    <div class="upload_template">
+        <div class="nav">
+            <h1>Upload an Menu</h1>
+            <a href="/results_page"> Menus →</a>
+
+        </div>
+
+        <p>This program aims to automate restaurant menu entries using AI.
+            When an image is posted, it is processed by an OCR that transcribes it into text. The text is sent to a
+            generative AI (Gemini), which processes the text based on the context of the prompt and returns it in JSON
+            string format.
+            The JSON string is processed and sent to the frontend for implementation.
+            <br>
+            <br>
+            <strong>ACCEPTS ONLY PNG, JPG, JPEG</strong>
+        </p>
+        <form action="/upload" method="post" enctype="multipart/form-data">
+            <input type="file" name="file" required>
+            <button type="submit">Upload</button>
+        </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    
+    background-image: url(images/background.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #32515c;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    font-family: monospace;
+
+    overflow-x: hidden;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color:rgb(230, 220, 214) ;
+    padding: 0 10px;
+    border-radius: 10px;
+}
+
+.nav>h1 {
+    font-size: 40px;
+   
+}
+
+.nav>div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: monospace;
+}
+
+.nav>div>form>button{
+    background: transparent;
+    border: none;
+    color: #32515c;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #32515c;
+    font-size: 20px;
+}
+
+.upload_template {
+    width: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: rgb(230, 220, 214);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.upload_template>h1 {
+    font-size: 50px;
+}
+
+.upload_template>p {
+    text-align: justify;
+}
+
+form {
+    box-sizing: content-box;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+form>input,
+form>button {
+    font-size: 20px;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.result_template {
+    
+    margin: auto;
+    width: 600px;
+
+    padding: 50px 0;
+
+}
+
+.result_template>.nav{
+    border: 1px solid #32515c;
+    padding: 10px;
+}
+/* generate from fetch */
+.elements{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgb(230, 220, 214);
+    border: 1px solid #32515c;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0; 
+}
+
+.elements>h2{
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+
+/* 
+-> PRECISO PERSONALIZAR RESULT_PAGE 
+-> CRIAR TRANSCRIÇÃO DE TEXTO 
+-> EDITAR DESCRIÇÃO 
+
+*/
